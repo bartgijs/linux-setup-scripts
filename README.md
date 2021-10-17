@@ -4,7 +4,6 @@ Scripts to setup a new Linux installation. See this README to see what is instal
 ## Prerequisites
  * Install the operating system (minimal installation is enough, internet is required)
  * Install git (Optional, as long as you get this repository local. The script does not install git)
- * 
 
 ## Usage
 To use this program, simply run the script as a superuser from the terminal, like written in the code block below.
