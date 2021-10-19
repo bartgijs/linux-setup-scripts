@@ -21,7 +21,7 @@ sudo snap install spotify
 # Bashrc configuration
 cat included/mkcd.bash >> ~/.bashrc
 
-Dual boot time fix (Linux uses localtime from the system clock)
+# Dual boot time fix (Linux uses localtime from the system clock)
 timedatectl set-local-rtc 1
 
 # ROS2 foxy install
