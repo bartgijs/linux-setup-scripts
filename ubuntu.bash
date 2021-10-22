@@ -25,10 +25,10 @@ cat included/mkcd.bash >> ~/.bashrc
 timedatectl set-local-rtc 1
 
 # ROS2 foxy install
-sudo apt install curl gnupg2 lsb-release
+sudo apt install curl gnupg2 lsb-release -y
 sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key  -o /usr/share/keyrings/ros-archive-keyring.gpg
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
 sudo apt update
 sudo apt install ros-foxy-desktop python3-colcon-common-extensions -y
-echo -e '\n# Source the ROS installation\nsource /opt/ros/foxy/setup.bash\n' >> ~/.bashrc
-echo -e "\n# Adds the alias sauce to source a ROS project\nalias sauce='. install/setup.bash'" >> ~/.bashrc
+echo -e '\n# Source the ROS installation\nsource /opt/ros/foxy/setup.bash\n' >> /home/$SUDO_USER/.bashrc
+echo -e "\n# Adds the alias sauce to source a ROS project\nalias sauce='. install/setup.bash'" >> /home/$SUDO_USER/.bashrc
