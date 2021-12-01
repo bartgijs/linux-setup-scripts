@@ -44,7 +44,7 @@ sudo ./boost_wxiwdgets.bash
 
 ## Recommended next steps
  * Add guake to the auto-start list of Ubuntu
- * Create SSH-keys, and add them to your online accounts
+ * [Create SSH-keys, and add them to your online accounts](https://docs.gitlab.com/ee/ssh/)
  * Edit fstab to auto-mount often used partitions
  * Run Grub customizer
  * [Install `chntpw` to copy Bluetooth keys from Windows to Linux](https://unix.stackexchange.com/questions/255509/bluetooth-pairing-on-dual-boot-of-windows-linux-mint-ubuntu-stop-having-to-p), to make sure that your Bluetooth devices automatically connect to both Ubuntu and Windows.
