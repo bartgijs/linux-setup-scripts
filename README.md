@@ -43,7 +43,7 @@ sudo ./boost_wxiwdgets.bash
    * Adds the alias `sauce`, which sources the current project. Assumes that the user is positioned in the root of the project.
 
 ## Recommended next steps
- * Add guake to the auto-start list of Ubuntu
+ * [Add guake to the auto-start list of Ubuntu](https://askubuntu.com/questions/48321/how-do-i-start-applications-automatically-on-login)
  * [Create SSH-keys, and add them to your online accounts](https://docs.gitlab.com/ee/ssh/)
  * Edit fstab to auto-mount often used partitions
  * Run Grub customizer
